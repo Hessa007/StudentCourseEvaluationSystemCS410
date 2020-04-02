@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="231dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/courseNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عال 410- برمجة الجوال"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/courseTeacherTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="أ. روان العمري"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/courseSectionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6c8- 11321"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/courseStatueTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لم يتم التقييم"
+                android:textSize="20sp" />
+        </LinearLayout>
+    <ImageView
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:src="@drawable/course"/>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+</LinearLayout>
+
